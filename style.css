@@ -16,31 +16,56 @@
   height: 80px;
 }
 
-.container-fluid{
-    background-color: white;
-    text-align: center;
+.container-fluid {
+  background-color: white;
+  text-align: center;
 }
 
 main {
-  background-color: var(--bege);
+  background-color: white;
   max-width: 1200px;
-  border: 3px solid black;
+
   margin-left: auto;
   margin-right: auto;
 }
-footer{
-    height: 80px;
+footer {
+  height: 80px;
 }
 
 #intro {
   height: 500px;
-  border: 1px solid pink;
+
+  box-shadow: 5px 0px 3px 3px rgba(153, 178, 181, 0.19);
+  margin-bottom: 100px;
 }
 #p2 {
   height: 500px;
-  border: 1px solid blue;
+  border: 1px solid pink;
+  background-image: url(media/backdrop-background-beige-blank.jpg);
+  background-size: cover;
+  background-position: top center;
+  box-shadow: 5px 0px 3px 3px rgba(153, 178, 181, 0.19);
 }
 #p3 {
+  margin-top: 100px;
+  margin-bottom: 100px;
   height: 500px;
-  border: 1px solid red;
+  background-image: linear-gradient(
+    to bottom,
+    var(--bege),
+    rgba(128, 255, 0, 0)
+  );
+  box-shadow: 5px 0px 3px 3px rgba(153, 178, 181, 0.19);
+}
+#p4 {
+  height: 500px;
+
+  box-shadow: 5px 0px 3px 3px rgba(153, 178, 181, 0.19);
+}
+.card {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+  margin: 30px;
 }

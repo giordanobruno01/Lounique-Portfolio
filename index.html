@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-        <link rel="shortcut icon" href="media/favicon copy.ico" type="image/x-icon">
+    <!-- carrousel js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="shortcut icon" href="media/favicon copy.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <title>Lydia</title>
 </head>
@@ -16,12 +19,12 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary mynav">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="media/Lounique hair logo.jpg" id="logo" alt="logo"></a>
+                <a class="navbar-brand" href="index.html"><img src="media/logo.jpg" id="logo" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" >
+                <div class="collapse navbar-collapse">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -42,7 +45,29 @@
     </header>
     <main>
         <div id="intro">
-
+            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="media/flower1.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="media/flower2.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="media/flower3.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
         <div id="p2">
 
@@ -50,10 +75,38 @@
         <div id="p3">
 
         </div>
+        <div id="p4">
+            <div class="card" style="width: 18rem;">
+                <img src="media/logo.jpg" class="card-img-top" alt="cards">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="media/logo.jpg" class="card-img-top" alt="cards">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="media/logo.jpg" class="card-img-top" alt="cards">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+            </div>
+           
+
+        </div>
 
     </main>
     <footer>
-<div id="footer"></div>
+        <div id="footer"></div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
