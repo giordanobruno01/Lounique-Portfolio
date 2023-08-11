@@ -9,11 +9,13 @@
   background-color: white;
   padding: 0;
 }
+.navbar-nav{
+    padding-left: 30%;
+}
 #logo {
   margin-left: auto;
   margin-right: auto;
-  width: 90px;
-  height: 80px;
+  width: 150px;
 }
 
 .container-fluid {
@@ -23,7 +25,6 @@
 
 main {
   background-color: white;
-  max-width: 1200px;
 
   margin-left: auto;
   margin-right: auto;
@@ -31,35 +32,73 @@ main {
 footer {
   height: 80px;
 }
+.info {
+  height: 500px;
+  padding-left: 100px;
+}
 
 #intro {
-  height: 500px;
+  width: 1700px;
 
+  margin-left: auto;
+  margin-right: auto;
   box-shadow: 5px 0px 3px 3px rgba(153, 178, 181, 0.19);
   margin-bottom: 100px;
 }
 #p2 {
+  width: 1400px;
   height: 500px;
-  border: 1px solid pink;
   background-image: url(media/backdrop-background-beige-blank.jpg);
   background-size: cover;
   background-position: top center;
   box-shadow: 5px 0px 3px 3px rgba(153, 178, 181, 0.19);
+  margin-left: auto;
+  margin-right: auto;
+}
+#p2-left {
+  padding-top: 90px;
+  width: 40%;
+  display: block;
+  height: 500;
+  float: left;
+}
+#p2-right {
+  width: 60%;
+  background-image: url(media/background1.jpg);
+  display: block;
+  height: 500px;
+  float: right;
 }
 #p3 {
   margin-top: 100px;
   margin-bottom: 100px;
+  width: 1400px;
   height: 500px;
-  background-image: linear-gradient(
-    to bottom,
-    var(--bege),
-    rgba(128, 255, 0, 0)
-  );
+
   box-shadow: 5px 0px 3px 3px rgba(153, 178, 181, 0.19);
+  margin-left: auto;
+  margin-right: auto;
+}
+#p3-left {
+  width: 60%;
+  display: block;
+  height: 500px;
+  float: left;
+  background-image: url(media/background2.jpg);
+}
+#p3-right {
+  padding-top: 90px;
+  width: 40%;
+  display: block;
+  height: 500px;
+  float: right;
 }
 #p4 {
+  width: 1200px;
   height: 500px;
   box-shadow: 5px 0px 3px 3px rgba(153, 178, 181, 0.19);
+  margin-left: auto;
+  margin-right: auto;
 }
 .card {
   display: block;
@@ -67,4 +106,7 @@ footer {
   margin-right: auto;
   float: right;
   margin: 30px;
+}
+footer {
+  height: 150px;
 }
