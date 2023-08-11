@@ -1,0 +1,46 @@
+:root {
+  --bege: rgba(227, 211, 196, 1);
+  --orange: rgba(241, 172, 143, 1);
+  --dark: rgba(56, 52, 46, 1);
+  --brown: rgba(183, 157, 136, 1);
+}
+.mynav {
+  text-align: center;
+  background-color: white;
+  padding: 0;
+}
+#logo {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90px;
+  height: 80px;
+}
+
+.container-fluid{
+    background-color: white;
+    text-align: center;
+}
+
+main {
+  background-color: var(--bege);
+  max-width: 1200px;
+  border: 3px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer{
+    height: 80px;
+}
+
+#intro {
+  height: 500px;
+  border: 1px solid pink;
+}
+#p2 {
+  height: 500px;
+  border: 1px solid blue;
+}
+#p3 {
+  height: 500px;
+  border: 1px solid red;
+}
