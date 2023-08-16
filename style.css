@@ -7,10 +7,17 @@
 .mynav {
   text-align: center;
   background-color: white;
+  width: 100%;
+  /* padding: 0;
+  margin: 0;
   padding: 0;
+  overflow: hidden;
+  position: sticky;
+  top: 0; */
+  position: fixed; top: 0; left: 0; z-index: 9999; width: 100%; background-color: #00a087; 
 }
-.navbar-nav{
-    padding-left: 30%;
+.navbar-nav {
+  padding-left: 30%;
 }
 #logo {
   margin-left: auto;
@@ -25,9 +32,10 @@
 
 main {
   background-color: white;
-
   margin-left: auto;
   margin-right: auto;
+  margin-top: auto;
+  margin:0;
 }
 footer {
   height: 80px;
@@ -38,36 +46,38 @@ footer {
 }
 
 #intro {
-  width: 1700px;
-
   margin-left: auto;
   margin-right: auto;
   box-shadow: 5px 0px 3px 3px rgba(153, 178, 181, 0.19);
   margin-bottom: 100px;
 }
+
 #p2 {
   width: 1400px;
   height: 500px;
   background-image: url(media/backdrop-background-beige-blank.jpg);
   background-size: cover;
   background-position: top center;
-  box-shadow: 5px 0px 3px 3px rgba(153, 178, 181, 0.19);
+  /* box-shadow: 5px 0px 3px 3px rgba(153, 178, 181, 0.19); */
   margin-left: auto;
   margin-right: auto;
 }
 #p2-left {
+  text-align: center;
   padding-top: 90px;
   width: 40%;
   display: block;
   height: 500;
   float: left;
+   padding: 20px;
 }
 #p2-right {
   width: 60%;
-  background-image: url(media/background1.jpg);
+  background-image: url(media/MicrosoftTeams-image\ \(6\).jpeg);
   display: block;
   height: 500px;
   float: right;
+    box-shadow: 5px 0px 3px 3px rgba(153, 178, 181, 0.19); 
 }
 #p3 {
   margin-top: 100px;
@@ -75,7 +85,7 @@ footer {
   width: 1400px;
   height: 500px;
 
-  box-shadow: 5px 0px 3px 3px rgba(153, 178, 181, 0.19);
+  /* box-shadow: 5px 0px 3px 3px rgba(153, 178, 181, 0.19); */
   margin-left: auto;
   margin-right: auto;
 }
@@ -84,14 +94,18 @@ footer {
   display: block;
   height: 500px;
   float: left;
-  background-image: url(media/background2.jpg);
+  background-image: url(media/MicrosoftTeams-image\ \(7\).jpeg);
+   box-shadow: 5px 0px 3px 3px rgba(153, 178, 181, 0.19); 
+  
 }
 #p3-right {
+  text-align: center;
   padding-top: 90px;
   width: 40%;
   display: block;
   height: 500px;
   float: right;
+  padding: 20px;
 }
 #p4 {
   width: 1200px;
