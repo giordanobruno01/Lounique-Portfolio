@@ -14,7 +14,12 @@
   overflow: hidden;
   position: sticky;
   top: 0; */
-  position: fixed; top: 0; left: 0; z-index: 9999; width: 100%; background-color: #00a087; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  background-color: #00a087;
 }
 .navbar-nav {
   padding-left: 30%;
@@ -22,7 +27,7 @@
 #logo {
   margin-left: auto;
   margin-right: auto;
-  width: 150px;
+  width: 110px;
 }
 
 .container-fluid {
@@ -35,7 +40,7 @@ main {
   margin-left: auto;
   margin-right: auto;
   margin-top: auto;
-  margin:0;
+  margin: 0;
 }
 #footer {
   height: 250px;
@@ -49,10 +54,15 @@ main {
   margin-left: auto;
   margin-right: auto;
   box-shadow: 5px 0px 3px 3px rgba(153, 178, 181, 0.19);
-  margin-bottom: 100px;
+
   width: 100%;
 }
-
+#container-2 {
+  background-color: rgba(201, 134, 10, 0.047);
+  height: 700px;
+  display: flex;
+  align-items: center;
+}
 #p2 {
   width: 1600px;
   height: 500px;
@@ -62,7 +72,6 @@ main {
   /* box-shadow: 5px 0px 3px 3px rgba(153, 178, 181, 0.19); */
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 100px;
 }
 #p2-left {
   text-align: center;
@@ -71,48 +80,67 @@ main {
   display: block;
   height: 500;
   float: left;
-   padding: 20px;
+  padding: 20px;
 }
 #p2-right {
   width: 60%;
-  background-image: url(media/MicrosoftTeams-image\ \(6\).jpeg);
+  background-image: url(media/backsmall1.jpeg);
   display: block;
   height: 500px;
   float: right;
-    box-shadow: 5px 0px 3px 3px rgba(153, 178, 181, 0.19); 
+  box-shadow: 5px 0px 3px 3px rgba(153, 178, 181, 0.19);
 }
 .fade_rule {
-        height: 1px;
-        background-color: #E6E6E6;
-        width: 66.0em;
-        margin: 0 auto;
-        background-image: linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
-        background-image: -o-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
-        background-image: -moz-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
-        background-image: -webkit-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
-        background-image: -ms-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
-        background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, white), color-stop(0.5, gray), color-stop(0.98, white) );
+  height: 1px;
+  background-color: #e6e6e6;
+  width: 66em;
+  margin: 0 auto;
+  background-image: linear-gradient(left, white 2%, #e6e6e6 50%, white 98%);
+  background-image: -o-linear-gradient(left, white 2%, #e6e6e6 50%, white 98%);
+  background-image: -moz-linear-gradient(
+    left,
+    white 2%,
+    #e6e6e6 50%,
+    white 98%
+  );
+  background-image: -webkit-linear-gradient(
+    left,
+    white 2%,
+    #e6e6e6 50%,
+    white 98%
+  );
+  background-image: -ms-linear-gradient(left, white 2%, #e6e6e6 50%, white 98%);
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    right bottom,
+    color-stop(0.02, white),
+    color-stop(0.5, gray),
+    color-stop(0.98, white)
+  );
+}
+#container-3 {
+  background-color: rgba(222, 184, 135, 0.256);
+  height: 700px;
+  display: flex;
+  align-items: center;
 }
 #p3 {
-  margin-top: 100px;
-  margin-bottom: 100px;
   width: 1600px;
   height: 500px;
-
   /* box-shadow: 5px 0px 3px 3px rgba(153, 178, 181, 0.19); */
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 #p3-left {
   width: 60%;
   display: block;
   height: 500px;
   float: left;
-  background-image: url(media/MicrosoftTeams-image\ \(7\).jpeg);
-   box-shadow: 5px 0px 3px 3px rgba(153, 178, 181, 0.19); 
-  
+  background-image: url(media/backsmall2.jpeg);
+  box-shadow: 5px 0px 3px 3px rgba(153, 178, 181, 0.19);
 }
 #p3-right {
+ 
   text-align: center;
   padding-top: 90px;
   width: 40%;
@@ -121,13 +149,20 @@ main {
   float: right;
   padding: 20px;
 }
+#container-4 {
+  display: flex;
+  align-items: center;
+  background-color: rgba(247, 247, 231, 0.362);
+  height: 700px;
+}
 #p4 {
+  display: flex;
+  align-items: center;
   width: 1200px;
   height: 500px;
   box-shadow: 5px 0px 3px 3px rgba(153, 178, 181, 0.19);
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
 }
 .card {
   display: block;
@@ -138,4 +173,89 @@ main {
 }
 footer {
   height: 150px;
+}
+.footer-clean {
+  padding: 50px 0;
+  background-color: #fff;
+  color: #4b4c4d;
+}
+
+.footer-clean h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer-clean ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer-clean ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-clean ul a:hover {
+  opacity: 1;
+}
+
+.footer-clean .item.social {
+  text-align: right;
+}
+
+@media (max-width: 767px) {
+  .footer-clean .item {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-clean .item.social {
+    text-align: center;
+  }
+}
+
+.footer-clean .item.social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+  margin-top: 22px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-clean .item.social > a:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 991px) {
+  .footer-clean .item.social > a {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-clean .item.social > a {
+    margin-top: 10px;
+  }
+}
+
+.footer-clean .copyright {
+  margin-top: 14px;
+  margin-bottom: 0;
+  font-size: 13px;
+  opacity: 0.6;
 }
