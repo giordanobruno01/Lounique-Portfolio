@@ -58,7 +58,10 @@ main {
   width: 100%;
 }
 #container-2 {
-  background-color: rgba(201, 134, 10, 0.047);
+  background-image: radial-gradient(
+    rgba(201, 134, 10, 0.047),
+    white
+  );
   height: 700px;
   display: flex;
   align-items: center;
@@ -120,6 +123,7 @@ main {
   );
 }
 #container-3 {
+  background-image: radial-gradient( rgba(222, 184, 135, 0.256), white);
   background-color: rgba(222, 184, 135, 0.256);
   height: 700px;
   display: flex;
@@ -140,7 +144,6 @@ main {
   box-shadow: 5px 0px 3px 3px rgba(153, 178, 181, 0.19);
 }
 #p3-right {
- 
   text-align: center;
   padding-top: 90px;
   width: 40%;
