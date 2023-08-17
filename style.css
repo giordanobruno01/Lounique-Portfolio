@@ -58,21 +58,14 @@ main {
   width: 100%;
 }
 #container-2 {
-  background-image: radial-gradient(
-    rgba(201, 134, 10, 0.047),
-    white
-  );
-  height: 700px;
+  background-image: radial-gradient(rgba(201, 134, 10, 0.047), white);
+  height: 900px;
   display: flex;
   align-items: center;
 }
 #p2 {
   width: 1600px;
   height: 500px;
-  background-image: url(media/backdrop-background-beige-blank.jpg);
-  background-size: cover;
-  background-position: top center;
-  /* box-shadow: 5px 0px 3px 3px rgba(153, 178, 181, 0.19); */
   margin-left: auto;
   margin-right: auto;
 }
@@ -87,11 +80,19 @@ main {
 }
 #p2-right {
   width: 60%;
-  background-image: url(media/backsmall1.jpeg);
-  display: block;
   height: 500px;
+  background-image: url(media/backpro3.jpg);
+  background-size: cover;
+  background-position: top center;
+  display: block;
   float: right;
-  box-shadow: 5px 0px 3px 3px rgba(153, 178, 181, 0.19);
+}
+.p2pic {
+  display: block;
+  max-width:100%;
+  max-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .fade_rule {
   height: 1px;
@@ -123,9 +124,9 @@ main {
   );
 }
 #container-3 {
-  background-image: radial-gradient( rgba(222, 184, 135, 0.256), white);
+  background-image: radial-gradient(rgba(222, 184, 135, 0.256), white);
   background-color: rgba(222, 184, 135, 0.256);
-  height: 700px;
+  height: 900px;
   display: flex;
   align-items: center;
 }
@@ -156,7 +157,7 @@ main {
   display: flex;
   align-items: center;
   background-color: rgba(247, 247, 231, 0.362);
-  height: 700px;
+  height: 900px;
 }
 #p4 {
   display: flex;
