@@ -1,0 +1,67 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  body {
+    background-color: black;
+  }
+  .cover_80 {
+
+    background-image: url(images/LH\ WEB\ 7.png);
+    width: 90vw;
+    height: 90vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    background-size: cover;
+    
+  }
+
+  #about-section {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  #events-section {
+    height: 100vh;
+    background-image: url(images/LH\ WEB\ 1.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    background-size: cover;
+  }
+  #gallery-section {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  #contact-section {
+    height: 100vh;
+    
+    background-image: url(images/LH\ WEB\ 9.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    background-size: cover;
+  }
+  #classes-section {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    
+  }
+}
