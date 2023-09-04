@@ -12,56 +12,71 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 /* @media (min-width: 1200px) { */
-  body {
-    background-color:white;
-  }
-  .cover_80 {
+body {
+  background-color: white;
+}
+.cover_80 {
+  background-image: url(images/LH\ WEB\ 7.png);
+  width: 90vw;
+  height: 90vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: center;
+  background-size: cover;
+}
 
-    background-image: url(images/LH\ WEB\ 7.png);
-    width: 90vw;
-    height: 90vh;
-    margin-left: auto;
-    margin-right: auto;
-    background-repeat: no-repeat;
-    background-position-y: center;
-    background-position-x: center;
-    background-size: cover;
-    
-  }
+#about-section {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+#events-section {
+  height: 100vh;
+  background-image: url(images/LH\ WEB\ 1.png);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: center;
+  background-size: cover;
+}
+#gallery-section {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+#contact-section {
+  height: 100vh;
 
-  #about-section {
-    display: flex;
-    align-items: center;
-    height: 100vh;
-    
-  }
-  #events-section {
-    height: 100vh;
-    background-image: url(images/LH\ WEB\ 1.png);
-    background-repeat: no-repeat;
-    background-position-y: center;
-    background-position-x: center;
-    background-size: cover;
-  }
-  #gallery-section {
-    display: flex;
-    align-items: center;
-    height: 100vh;
-    
-  }
-  #contact-section {
-    height: 100vh;
-    
-    background-image: url(images/LH\ WEB\ 9.png);
-    background-repeat: no-repeat;
-    background-position-y: center;
-    background-position-x: center;
-    background-size: cover;
-  }
-  #classes-section {
-    display: flex;
-    align-items: center;
-    height: 100vh;
-    
-  }
+  /* background-image: url(images/LH\ WEB\ 9.png); */
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: center;
+  background-size: cover;
+}
+#app-left-top {
+  background-image: url(images/LH\ web\ 9\ -\ left.png);
+  background-repeat: no-repeat;
+  width: 50vw;
+  background-size: cover;
+  /*height: 100vh;
+  background-position-y: center;
+  background-position-x: center; 
+   */
+}
+#app-right-bottom {
+  background-image: url(images/LH\ web\ 9\ -\ right.png);
+  background-repeat: no-repeat;
+  width: 50vw;
+  background-size: cover;
+  /*height: 100vh;
+  background-position-y: center;
+  background-position-x: center; 
+  */
+}
+#classes-section {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
 /* } */
