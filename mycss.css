@@ -16,9 +16,9 @@ body {
   background-color: white;
 }
 .cover_80 {
-  background-image: url(images/LH\ WEB\ 7.png);
-  width: 90vw;
-  height: 90vh;
+
+  width: 80%;
+  height: 80%;
   margin-left: auto;
   margin-right: auto;
   background-repeat: no-repeat;
@@ -28,46 +28,66 @@ body {
 }
 
 #about-section {
+  background-image: url(images/parallax.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   display: flex;
   align-items: center;
   height: 100vh;
 }
+.secleft{
+  background-color: aqua;
+  height: 100%;
+}
+.secright{
+  background-color: yellowgreen;
+  height: 100%;
+}
 #events-section {
   height: 100vh;
-  background-image: url(images/LH\ WEB\ 1.png);
+  /* background-image: url(images/LH\ WEB\ 1.png); */
+  background-color: aliceblue;
   background-repeat: no-repeat;
   background-position-y: center;
   background-position-x: center;
   background-size: cover;
 }
 #gallery-section {
+  background-image: url(images/parallax.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   display: flex;
   align-items: center;
   height: 100vh;
 }
-#contact-section {     
+#contact-section {
+  
   height: 100vh;
-
   /* background-image: url(images/LH\ WEB\ 9.png); */
   background-repeat: no-repeat;
   background-position-y: center;
-  background-position-x: center;   
+  background-position-x: center;
   background-size: cover;
-} 
+}
 #app-left-top {
   background-image: url(images/LH\ web\ 9\ -\ left.png);
   background-repeat: no-repeat;
-  width: 50vw;  
   background-size: cover;
   /*height: 100vh;
   background-position-y: center;
   background-position-x: center; 
    */
 }
+/* .container-fluid{
+  background-image: url(images/back.png);
+   background-repeat: no-repeat;
+  background-size: cover;
+} */
 #app-right-bottom {
   background-image: url(images/LH\ web\ 9\ -\ right.png);
   background-repeat: no-repeat;
-  width: 50vw;
   background-size: cover;
   /*height: 100vh;
   background-position-y: center;
@@ -75,6 +95,10 @@ body {
   */
 }
 #classes-section {
+  background-image: url(images/parallax.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   display: flex;
   align-items: center;
   height: 100vh;
