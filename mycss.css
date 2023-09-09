@@ -1,10 +1,5 @@
 /* Small devices (landscape phones, 576px and up) */
-/* @media (min-width: 576px) {
-} */
 
-/* Medium devices (tablets, 768px and up) */
-/* @media (min-width: 768px) {
-} */
 
 /* Large devices (desktops, 992px and up) */
 /* @media (min-width: 992px) {
@@ -37,26 +32,30 @@ body {
   height: 100vh;
 }
 .aboutleft{
+  
   background-image: url(images/LH\ web\ 9\ -\ right.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
+  
 }
 .aboutright{
+  
   background-image: url(images/LH\ web\ 8.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
   background-position-x: center;
   height:100%;
+  
 }
 #events-section {
   height: 100vh;
-  /* background-image: url(images/LH\ WEB\ 1.png); */
-  background-color: aliceblue;
+  background-image: url(images/LH\ WEB\ 3.png);
+
   background-repeat: no-repeat;
   background-position-y: center;
-  background-position-x: center;
+ background-position-x:left;
   background-size: cover;
 }
 #gallery-section {
@@ -85,10 +84,10 @@ body {
 #contact-section {
   
   height: 100vh;
-  /* background-image: url(images/LH\ WEB\ 9.png); */
+  background-image: url(images/LH\ WEB\ 3.png);
   background-repeat: no-repeat;
   background-position-y: center;
-  background-position-x: center;
+  background-position-x:left;
   background-size: cover;
 }
 
@@ -106,6 +105,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
+  position: relative;
 }
 .classesright{
   background-image: url(images/LH\ web\ 8.png);
@@ -114,10 +114,76 @@ body {
   background-position-y: center;
   background-position-x: center;
   height:100%;
+  position: relative;
 }
 #footer{
   height: 30vh;
   background-color: white;
 
 }
+ @media (max-width: 576px) {
+  .aboutleft{
+  
+  background-image: url(images/LH\ web\ 8.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50%;
+  
+}
+.aboutright{
+  
+  
+  background-image: url(images/LH\ web\ 9\ -\ right.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center;
+  height:50%;
+  
+}
+
+.galleryleft{
+  
+  background-image: url(images/LH\ web\ 8.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50%;
+  
+}
+.galleryright{
+  
+  
+  background-image: url(images/LH\ web\ 9\ -\ right.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center;
+  height:50%;
+  
+}
+.classesleft{
+  
+  background-image: url(images/LH\ web\ 8.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50%;
+  
+}
+.classesright{
+  
+  
+  background-image: url(images/LH\ web\ 9\ -\ right.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center;
+  height:50%;
+  
+}
+
+} 
+
+/* Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) {
+} */
 
