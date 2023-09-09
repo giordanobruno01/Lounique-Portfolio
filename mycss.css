@@ -36,13 +36,19 @@ body {
   align-items: center;
   height: 100vh;
 }
-.secleft{
-  background-color: aqua;
+.aboutleft{
+  background-image: url(images/LH\ web\ 9\ -\ right.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100%;
 }
-.secright{
-  background-color: yellowgreen;
-  height: 100%;
+.aboutright{
+  background-image: url(images/LH\ web\ 8.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center;
+  height:100%;
 }
 #events-section {
   height: 100vh;
@@ -62,6 +68,20 @@ body {
   align-items: center;
   height: 100vh;
 }
+.galleryleft{
+  background-image: url(images/LH\ web\ 9\ -\ right.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.galleryright{ 
+  background-image: url(images/LH\ web\ 8.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center;
+  height:100%;
+}
 #contact-section {
   
   height: 100vh;
@@ -71,29 +91,7 @@ body {
   background-position-x: center;
   background-size: cover;
 }
-#app-left-top {
-  background-image: url(images/LH\ web\ 9\ -\ left.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  /*height: 100vh;
-  background-position-y: center;
-  background-position-x: center; 
-   */
-}
-/* .container-fluid{
-  background-image: url(images/back.png);
-   background-repeat: no-repeat;
-  background-size: cover;
-} */
-#app-right-bottom {
-  background-image: url(images/LH\ web\ 9\ -\ right.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  /*height: 100vh;
-  background-position-y: center;
-  background-position-x: center; 
-  */
-}
+
 #classes-section {
   background-image: url(images/parallax.png);
   background-repeat: no-repeat;
@@ -101,6 +99,25 @@ body {
   background-attachment: fixed;
   display: flex;
   align-items: center;
-  height: 100vh;
+  height: 70vh;
 }
-/* } */
+.classesleft{
+  background-image: url(images/LH\ web\ 9\ -\ right.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.classesright{
+  background-image: url(images/LH\ web\ 8.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center;
+  height:100%;
+}
+#footer{
+  height: 30vh;
+  background-color: white;
+
+}
+
