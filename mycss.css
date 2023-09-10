@@ -1,8 +1,5 @@
-/* Small devices (landscape phones, 576px and up) */
-
 /* Large devices (desktops, 992px and up) */
 /* @media (min-width: 992px) {
-  
 } */
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -124,6 +121,7 @@ h1 {
   height: 30vh;
   background-color: white;
 }
+/* Small devices (landscape phones, up to 576px) */
 @media (max-width: 576px) {
   .cover_80 {
     width: 97%;
@@ -197,10 +195,10 @@ h1 {
   }
 }
 
-/* Medium devices (tablets, 768px untill 992px) */
+/* Medium devices (tablets, 576px up to 992px) */
 @media ((min-width: 576px)and (max-width:992px)) {
    .cover_80 {
-    width: 95%;
+    width: 80%;
     height: 95%;
     margin-left: auto;
     margin-right: auto;
@@ -215,7 +213,7 @@ h1 {
     background-size: cover;
     background-position-y: center;
     background-position-x: center;
-    height: 35%;
+    height: 50%;
   }
   .aboutright {
     background-image: url(images/LH\ web\ 9\ -\ right.png);
@@ -223,8 +221,7 @@ h1 {
     background-size: cover;
     background-position-y: bottom;
     background-position-x: center;
-
-    height: 65%;
+    height: 50%;
   }
   .aboutright > li,
   ul,
@@ -234,30 +231,34 @@ h1 {
   }
 
   .galleryleft {
-    background-image: url(images/LH\ web\ 8.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 50%;
-  }
-  .galleryright {
-    background-image: url(images/LH\ web\ 9\ -\ right.png);
+     background-image: url(images/LH\ web\ 8.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: center;
     background-position-x: center;
     height: 50%;
   }
-  .classesleft {
-    background-image: url(images/LH\ web\ 8.png);
+  .galleryright {
+     background-image: url(images/LH\ web\ 9\ -\ right.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position-y: bottom;
+    background-position-x: center;
+    height: 50%;
+  }
+  .classesleft {
+     background-image: url(images/LH\ web\ 8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
     height: 50%;
   }
   .classesright {
     background-image: url(images/LH\ web\ 9\ -\ right.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: center;
+    background-position-y: bottom;
     background-position-x: center;
     height: 50%;
   }
