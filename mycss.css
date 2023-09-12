@@ -87,8 +87,8 @@ h1 {
   height: 100vh;
   background-image: url(images/LH\ WEB\ 6.png);
   background-repeat: no-repeat;
-  background-position-y:center;
-  background-position-x:right;
+  background-position-y: center;
+  background-position-x: right;
   background-size: cover;
 }
 
@@ -118,9 +118,9 @@ h1 {
   position: relative;
 }
 footer {
-  background:#f7b3082c;
+  background: #f7b3082c;
   height: 30vh;
-  color: #fff;
+  color: black;
 }
 .footer-content {
   display: flex;
@@ -149,26 +149,25 @@ footer {
   align-items: center;
   justify-content: center;
   margin: 1rem 0 3rem 0;
+  color: #000;
 }
 .socials li {
   margin: 0 10px;
 }
 .socials a {
   text-decoration: none;
-  color: #fff;
-  border: 1.1px solid white;
-  padding: 5px;
-
-  border-radius: 50%;
+  /* border: 1.1px solid black; */
+  padding: 10px;
+  border-radius: 60%;
 }
 .socials a i {
-  font-size: 1.1rem;
-  width: 20px;
-
+  font-size: 5rem;
+  width: 25px;
+  color: #000;
   transition: color 0.4s ease;
 }
 .socials a:hover i {
-  color: aqua;
+  color: #b58b00c4;
 }
 
 .footer-bottom {
@@ -180,11 +179,10 @@ footer {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-
 }
 
 .footer-bottom p a {
-  color: #44bae8;
+  color: #b58b00c4;
   font-size: 16px;
   text-decoration: none;
 }
@@ -200,12 +198,11 @@ footer {
   margin-left: auto;
   margin-right: auto;
   align-items: center;
-
 }
 .footer-menu ul li {
   padding-right: 10px;
   display: block;
-   margin-left: auto;
+  margin-left: auto;
   margin-right: auto;
 }
 .footer-menu ul li a {
@@ -213,13 +210,11 @@ footer {
   text-decoration: none;
 }
 .footer-menu ul li a:hover {
-  color: #27bcda;
+  color: #b58b00c4;
 }
-   
 
 /* Small devices (landscape phones, up to 576px) */
 @media (max-width: 576px) {
- 
   .cover_80 {
     width: 97%;
     height: 97%;
@@ -273,10 +268,10 @@ footer {
     background-image: url(images/LH\ WEB\ 6.png);
     background-repeat: no-repeat;
     background-position-y: center;
-    background-position-x:right;
+    background-position-x: right;
     background-size: cover;
   }
-  .classesleft { 
+  .classesleft {
     background-image: url(images/LH\ web\ 8.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -360,4 +355,3 @@ footer {
     height: 50%;
   }
 }
- 
