@@ -70,17 +70,17 @@ h1 {
   height: 100vh;
 }
 .galleryleft {
-  background-image: url(images/LH\ web\ 9\ -\ right.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: white;
+  /* background-repeat: no-repeat;
+  background-size: cover; */
   height: 100%;
 }
 .galleryright {
-  background-image: url(images/LH\ web\ 8.png);
-  background-repeat: no-repeat;
+  background-color: white;
+  /* background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
-  background-position-x: center;
+  background-position-x: center; */
   height: 100%;
 }
 #contact-section {
@@ -159,7 +159,7 @@ footer {
   /* border: 1.1px solid black; */
   padding: 10px;
   border-radius: 60%;
-} 
+}
 .socials a i {
   font-size: 5rem;
   width: 25px;
@@ -212,11 +212,27 @@ footer {
 .footer-menu ul li a:hover {
   color: #b58b00c4;
 }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
 
 /* Small devices (landscape phones, up to 576px) */
 @media (max-width: 576px) {
   .cover_80 {
-    width: 97%;
+    width: 99%;
     height: 97%;
     margin-left: auto;
     margin-right: auto;
@@ -250,17 +266,11 @@ footer {
   }
 
   .galleryleft {
-    background-image: url(images/LH\ web\ 8.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: white;
     height: 50%;
   }
   .galleryright {
-    background-image: url(images/LH\ web\ 9\ -\ right.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: center;
-    background-position-x: center;
+    background-color: white;
     height: 50%;
   }
   #contact-section {
@@ -290,7 +300,7 @@ footer {
 /* Medium devices (tablets, 576px up to 992px) */
 @media ((min-width: 576px)and (max-width:992px)) {
   .cover_80 {
-    width: 80%;
+    width: 95%;
     height: 95%;
     margin-left: auto;
     margin-right: auto;
@@ -323,19 +333,11 @@ footer {
   }
 
   .galleryleft {
-    background-image: url(images/LH\ web\ 8.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: center;
-    background-position-x: center;
+    background-color: white;
     height: 50%;
   }
   .galleryright {
-    background-image: url(images/LH\ web\ 9\ -\ right.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: bottom;
-    background-position-x: center;
+    background-color: white;
     height: 50%;
   }
   .classesleft {
