@@ -52,7 +52,7 @@ a {
   .site-navbar-wrap a {
     color: #fff; }
   .site-navbar-wrap .site-navbar-top {
-    font-size: 0.8rem; }
+    font-size: 0.9rem; }
 
 .site-navbar-top {
   border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
@@ -61,14 +61,14 @@ a {
   margin-bottom: 0px;
   width: 100%; }
   .site-navbar .site-logo {
-    font-weight: 200;
+    font-weight: 500;
     line-height: 0;
     top: -7px;
     position: relative; }
     .site-navbar .site-logo a {
-      font-weight: 200;
+      font-weight: 500;
       color: #fff;
-      font-size: 20px;
+      font-size: 30px;
       font-weight: bold;
       text-transform: uppercase; }
   .site-navbar .site-navigation .site-menu {
@@ -76,14 +76,14 @@ a {
     .site-navbar .site-navigation .site-menu a {
       text-decoration: none !important;
       display: inline-block;
-      font-weight: 500; }
+      font-weight: 1000; }
     .site-navbar .site-navigation .site-menu > li {
       display: inline-block;
       padding: 10px 5px; }
       .site-navbar .site-navigation .site-menu > li > a {
         padding: 20px 10px;
         color: rgba(255, 255, 255, 0.6);
-        font-size: 15px;
+        font-size: 20px;
         text-decoration: none !important; }
         .site-navbar .site-navigation .site-menu > li > a.active {
           color: #fff; }
