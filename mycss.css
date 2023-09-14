@@ -91,22 +91,20 @@ h1 {
   background-position-x: right;
   background-size: cover; */
 }
-.contactleft{
-  background-image: url(images/LH\ web\ 7\ \(1\).png);
+.contactleft {
+  background-image: url(images/LH\web\7\\(1\).png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
   position: relative;
-
 }
-.contactright{
-  background-image: url(images/LH\ web\ 7\ \(2\).png);
+.contactright {
+  background-image: url(images/LH\web\7\\(2\).png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
-  
-  position: relative;
 
+  position: relative;
 }
 
 #classes-section {
@@ -290,13 +288,24 @@ tr:nth-child(even) {
     background-color: white;
     height: 50%;
   }
-  #contact-section {
+  /* #contact-section {
     height: 100vh;
-    background-image: url(images/LH\ WEB\ 6.png);
+    
+  } */
+  .contactleft {
+    background-image: url(images/LH\ web\ 7\ \(1\).png);
     background-repeat: no-repeat;
-    background-position-y: center;
-    background-position-x: right;
     background-size: cover;
+    height: 50%;
+    position: relative;
+  }
+  .contactright {
+    background-image: url(images/LH\ web\ 7\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+
+    position: relative;
   }
   .classesleft {
     background-image: url(images/LH\ web\ 8.png);
