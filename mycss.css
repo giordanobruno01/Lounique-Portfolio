@@ -286,7 +286,7 @@ tr:nth-child(even) {
   }
   .galleryright {
     background-color: white;
-    height: 50%;
+    height: 50%; 
   }
   /* #contact-section {
     height: 100vh;
