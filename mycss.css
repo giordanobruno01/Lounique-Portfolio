@@ -54,14 +54,35 @@ h1 {
 #events-section {
   height: 100vh;
   background-image: url(images/LH\ WEB\ 3.png);
+  
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 .eventsright {
-  border: 1px solid black;
+
   height: 80%;
   width: 50%;
+  margin-right: 10px;
+  background-color: white;
+  padding: 10px;
+}
+.card {
+  width: 30%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+}
+.card-img-top{
+  height: 100%;
+  width: 100%;
+   background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center;
+  
 }
 #gallery-section {
   background-image: url(images/parallax.png);
@@ -295,10 +316,17 @@ tr:nth-child(even) {
     align-items: center;
   }
   .eventsright {
-    border: 1px solid black;
-    height: 90vh;
-    width: 90vw;
+    height: 90%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  
+    background-color: white;
+    overflow-x: scroll;
   }
+  .card {
+  width: 50%;
+}
 
   .galleryleft {
     background-color: white;
@@ -403,11 +431,16 @@ tr:nth-child(even) {
     justify-content: end;
     align-items: center;
   }
-  .eventsright {
-    border: 1px solid black;
-    height: 90vh;
-    width: 70vw;
+   .eventsright {
+    height: 90%;
+    width: 80%;
+   
+    background-color: white;
+    overflow-x: scroll;
   }
+  .card {
+  width: 30%;
+}
 
   .galleryleft {
     background-color: white;
