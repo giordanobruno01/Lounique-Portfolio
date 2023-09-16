@@ -54,7 +54,8 @@ h1 {
 #events-section {
   height: 100vh;
   background-image: url(images/LH\ WEB\ 3.png);
-  
+  /* position: relative;
+  opacity: 0.5; */
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -62,7 +63,7 @@ h1 {
   align-items: center;
 }
 .eventsright {
-
+  /* position: absolute; */
   height: 80%;
   width: 50%;
   margin-right: 10px;
@@ -75,14 +76,13 @@ h1 {
   display: flex;
   justify-content: center;
 }
-.card-img-top{
+.card-img-top {
   height: 100%;
   width: 100%;
-   background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
   background-position-x: center;
-  
 }
 #gallery-section {
   background-image: url(images/parallax.png);
@@ -320,13 +320,13 @@ tr:nth-child(even) {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-  
+
     background-color: white;
     overflow-x: scroll;
   }
   .card {
-  width: 50%;
-}
+    width: 50%;
+  }
 
   .galleryleft {
     background-color: white;
@@ -431,16 +431,16 @@ tr:nth-child(even) {
     justify-content: end;
     align-items: center;
   }
-   .eventsright {
+  .eventsright {
     height: 90%;
     width: 80%;
-   
+
     background-color: white;
     overflow-x: scroll;
   }
   .card {
-  width: 30%;
-}
+    width: 30%;
+  }
 
   .galleryleft {
     background-color: white;
