@@ -54,11 +54,14 @@ h1 {
 #events-section {
   height: 100vh;
   background-image: url(images/LH\ WEB\ 3.png);
-
-  background-repeat: no-repeat;
-  background-position-y: center;
-  background-position-x: left;
-  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.eventsright {
+  border: 1px solid black;
+  height: 80%;
+  width: 50%;
 }
 #gallery-section {
   background-image: url(images/parallax.png);
@@ -85,25 +88,25 @@ h1 {
 }
 #contact-section {
   height: 100vh;
-  /* background-image: url(images/LH\ WEB\ 6.png);
-  background-repeat: no-repeat;
+  padding-left: 0%;
+  padding-right: 0%;
+  /* background-repeat: no-repeat;
   background-position-y: center;
   background-position-x: right;
   background-size: cover; */
 }
 .contactleft {
-  background-image: url(images/LH\web\7\\(1\).png);
+  background-image: url(images/LH\ web\ 7.1.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
   position: relative;
 }
 .contactright {
-  background-image: url(images/LH\web\7\\(2\).png);
+  background-image: url(images/LH\ web\ 7.2.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
-
   position: relative;
 }
 
@@ -279,6 +282,23 @@ tr:nth-child(even) {
     text-align: center;
     padding: 0%;
   }
+  #events-section {
+    height: 100vh;
+    background-image: url(images/LH\ WEB\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    background-position-x: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .eventsright {
+    border: 1px solid black;
+    height: 90vh;
+    width: 90vw;
+  }
 
   .galleryleft {
     background-color: white;
@@ -286,21 +306,21 @@ tr:nth-child(even) {
   }
   .galleryright {
     background-color: white;
-    height: 50%; 
+    height: 50%;
   }
   /* #contact-section {
     height: 100vh;
     
   } */
   .contactleft {
-    background-image: url(images/LH\ web\ 7\ \(1\).png);
+    background-image: url(images/LH\ web\ 7.1.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 50%;
     position: relative;
   }
   .contactright {
-    background-image: url(images/LH\ web\ 7\ \(2\).png);
+    background-image: url(images/LH\ web\ 7.2.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 50%;
@@ -320,6 +340,21 @@ tr:nth-child(even) {
     background-position-y: center;
     background-position-x: center;
     height: 50%;
+  }
+  .contactleft {
+    background-image: url(images/LH\ web\ 7.1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+    position: relative;
+  }
+  .contactright {
+    background-image: url(images/LH\ web\ 7.2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+
+    position: relative;
   }
 }
 
@@ -357,6 +392,22 @@ tr:nth-child(even) {
     text-align: center;
     padding: 0%;
   }
+  #events-section {
+    height: 100vh;
+    background-image: url(images/LH\ WEB\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    background-position-x: center;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  .eventsright {
+    border: 1px solid black;
+    height: 90vh;
+    width: 70vw;
+  }
 
   .galleryleft {
     background-color: white;
@@ -381,5 +432,20 @@ tr:nth-child(even) {
     background-position-y: bottom;
     background-position-x: center;
     height: 50%;
+  }
+  .contactleft {
+    background-image: url(images/LH\ web\ 7.1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+    position: relative;
+  }
+  .contactright {
+    background-image: url(images/LH\ web\ 7.2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+
+    position: relative;
   }
 }
