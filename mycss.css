@@ -53,7 +53,7 @@ h1 {
 
 #events-section {
   height: 100vh;
-  background-image: url(images/LH\ WEB\ 3.png);
+  background-image: url(images/back1-crop.jpg);
   /* position: relative;
   opacity: 0.5; */
   background-repeat: no-repeat;
@@ -64,17 +64,20 @@ h1 {
 }
 .eventsright {
   /* position: absolute; */
-  height: 80%;
-  width: 50%;
+  height: 90%;
+  width: 70%;
   margin-right: 10px;
-  background-color: white;
+  overflow-x: scroll;
   padding: 10px;
 }
 .card {
+  padding: 10px 10px 0px 10px;
   width: 30%;
-  height: 50%;
+  height: 40%;
   display: flex;
   justify-content: center;
+  background-color: transparent;
+  border: 2px solid white;
 }
 .card-img-top {
   height: 100%;
@@ -83,6 +86,9 @@ h1 {
   background-size: cover;
   background-position-y: center;
   background-position-x: center;
+}
+.card-body {
+  height: 30%;
 }
 #gallery-section {
   background-image: url(images/parallax.png);
@@ -98,15 +104,34 @@ h1 {
   /* background-repeat: no-repeat;
   background-size: cover; */
   height: 100%;
+  width: 20%;
 }
 .galleryright {
+  padding-top: 20px;
   background-color: white;
   /* background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
   background-position-x: center; */
   height: 100%;
+  width: 100%;
 }
+.pricelist {
+  padding: 0px;
+  width: 100%;
+  height: 25%;
+}
+.pricelist button {
+  background-image: url(media/cv.png);
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  text-align: justify;
+  text-decoration: underline;
+  color: rgb(255, 240, 240);
+}
+
 #contact-section {
   height: 100vh;
   padding-left: 0%;
@@ -305,12 +330,11 @@ tr:nth-child(even) {
   }
   #events-section {
     height: 100vh;
-    background-image: url(images/LH\ WEB\ 3.png);
+    background-image: url(images/back1-crop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: bottom;
     background-position-x: center;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -320,26 +344,37 @@ tr:nth-child(even) {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-
-    background-color: white;
+    overflow-x: scroll;
+    background-color: transparent;
     overflow-x: scroll;
   }
   .card {
     width: 50%;
   }
+  .card-body {
+    height: 30%;
+  }
 
-  .galleryleft {
-    background-color: white;
-    height: 50%;
-  }
-  .galleryright {
-    background-color: white;
-    height: 50%;
-  }
   /* #contact-section {
     height: 100vh;
     
   } */
+  .galleryleft {
+    background-color: white;
+    height: 10%;
+    width: 100%;
+  }
+  .galleryright {
+    background-color: white;
+
+    overflow-x: scroll;
+    height: 90%;
+    width: 100%;
+  }
+  .pricelist {
+    width: 25%;
+    height: 95%;
+  }
   .contactleft {
     background-image: url(images/LH\ web\ 7.1.png);
     background-repeat: no-repeat;
@@ -352,7 +387,6 @@ tr:nth-child(even) {
     background-repeat: no-repeat;
     background-size: cover;
     height: 50%;
-
     position: relative;
   }
   .classesleft {
@@ -422,7 +456,7 @@ tr:nth-child(even) {
   }
   #events-section {
     height: 100vh;
-    background-image: url(images/LH\ WEB\ 3.png);
+    background-image: url(images/back1-crop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: bottom;
@@ -434,9 +468,9 @@ tr:nth-child(even) {
   .eventsright {
     height: 90%;
     width: 80%;
-
-    background-color: white;
     overflow-x: scroll;
+    margin-left: auto;
+    margin-right: auto;
   }
   .card {
     width: 30%;
@@ -444,11 +478,19 @@ tr:nth-child(even) {
 
   .galleryleft {
     background-color: white;
-    height: 50%;
+
+    height: 10%;
+    width: 100%;
   }
   .galleryright {
     background-color: white;
-    height: 50%;
+    height: 90%;
+    width: 100%;
+    overflow-x: scroll;
+  }
+  .pricelist {
+    width: 25%;
+    height: 95%;
   }
   .classesleft {
     background-image: url(images/LH\ web\ 8.png);
