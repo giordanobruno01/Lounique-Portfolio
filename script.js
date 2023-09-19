@@ -76,7 +76,7 @@ function showlist1() {
             </tr>
             <tr>
               <td>34"</td>
-              <td>€770.00</td>
+              <td>€770.00</td> 
               <td>€790.00</td>
             </tr>
             <tr>

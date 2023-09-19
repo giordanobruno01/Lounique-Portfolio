@@ -122,14 +122,12 @@ h1 {
   height: 25%;
 }
 .pricelist button {
-  background-image: url(media/cv.png);
   background-size: cover;
   background-position: center center;
   height: 100%;
   width: 100%;
   text-align: justify;
-  text-decoration: underline;
-  color: rgb(255, 240, 240);
+  text-decoration: underline;f
 }
 
 #contact-section {
