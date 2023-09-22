@@ -70,7 +70,7 @@ function showlist1() {
               <td>€690.00</td>
             </tr>
             <tr>
-              <td>32"</td> 
+              <td>32"</td>  
               <td>€700.00</td>
               <td>€750.00</td>
             </tr>
