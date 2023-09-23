@@ -316,6 +316,10 @@ footer {
   font-size: 25px;
   height: 35%;
 }
+.header img{
+  width: 80%;
+  height: 80%;
+}
 .columns2 .price .header {
   background-color: #f7b308b2;
   color: white;

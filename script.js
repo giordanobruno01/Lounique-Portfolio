@@ -14,7 +14,7 @@ function showlist1() {
 
 <div class="columns">
   <ul class="price">
-    <li class="header" >TWIST BRAIDS</li>
+    <li class="header" style="background-image: url(images/900px/3.jpeg);" >TWIST BRAIDS</li>
     
     <li><h3>Short Length</h3> <div class="adults-kids"> Adults €75.00</div> <div class="adults-kids"> Kids €45.00</div></li>
     <li><h3>Medium Length</h3> <div class="adults-kids"> Adults €85.00</div> <div class="adults-kids"> Kids €45.00</div> </li>
@@ -26,7 +26,7 @@ function showlist1() {
 
 <div class="columns">
   <ul class="price">
-    <li class="header" style="background-image: url(images/wig.jpeg);">FAUX LOCS</li>
+    <li class="header">FAUX LOCS <img src="images/services/Faux locs.JPG" alt=""></li>
    
     <li><h3>Short Length</h3> <div class="adults-kids"> Adults €100.00</div> <div class="adults-kids"> Kids €45.00</div></li>
     <li><h3>Medium Length</h3> <div class="adults-kids"> Adults €85.00</div> <div class="adults-kids"> Kids €45.00</div> </li>
