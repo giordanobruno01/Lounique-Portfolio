@@ -122,10 +122,9 @@ h1 {
   color: white;
   font-size: 1em;
   text-align: center;
-  
 }
-.galleryleft button{
-  border: 1px solid  #f7b308b2;
+.galleryleft button {
+  border: 1px solid #f7b308b2;
 }
 .galleryleft div:hover {
   box-shadow: 0 8px 8px 0 #f7b308b2;
@@ -284,25 +283,6 @@ footer {
 .footer-menu ul li a:hover {
   color: #b58b00c4;
 }
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td,
-th {
-  border: 1px solid #f7b3082c;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #f7b3082c;
-}
-* {
-  box-sizing: border-box;
-}
 
 .columns {
   float: left;
@@ -310,7 +290,12 @@ tr:nth-child(even) {
   padding: 8px;
   height: 100%;
 }
-
+.columns2 {
+  float: left;
+  width: 25%;
+  padding: 8px;
+  height: 100%;
+}
 .price {
   list-style-type: none;
   border: 1px solid #eee;
@@ -331,11 +316,32 @@ tr:nth-child(even) {
   font-size: 25px;
   height: 35%;
 }
+.columns2 .price .header {
+  background-color: #f7b308b2;
+  color: white;
+  font-size: 25px;
+  height: 20%;
+}
 
 .price li {
   border-bottom: 1px solid #f7b3082c;
   height: 15%;
   text-align: center;
+}
+.columns2 .price li {
+  border-bottom: 1px solid #f7b3082c;
+  height: 5%;
+  text-align: center;
+}
+.lenght {
+  display: block;
+  width: 50%;
+  float: left;
+}
+.lenght-price {
+  display: block;
+  width: 50%;
+  float: right;
 }
 
 .price .grey {
@@ -366,8 +372,13 @@ tr:nth-child(even) {
 @media (max-width: 576px) {
   .columns {
     width: 100%;
-  
   }
+  .columns2 {
+  float: left;
+  width: 50%;
+  padding: 8px;
+  height: 100%;
+}
   .cover_80 {
     width: 99%;
     height: 97%;
@@ -448,6 +459,7 @@ tr:nth-child(even) {
     height: 90%;
     width: 100%;
   }
+  
   .pricelist {
     width: 25%;
     height: 95%;
@@ -499,7 +511,6 @@ tr:nth-child(even) {
 
 /* Medium devices (tablets, 576px up to 992px) */
 @media ((min-width: 576px)and (max-width:992px)) {
- 
   .cover_80 {
     width: 95%;
     height: 95%;

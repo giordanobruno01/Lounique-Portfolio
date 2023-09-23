@@ -1,96 +1,5 @@
 function showlist1() {
   document.getElementById("galleryright").innerHTML = `
-
-    <table>
-            <tr>
-              <th>Inches</th>
-              <th>Bone Straight</th>
-              <th>Deep curls</th>
-              <th>Body wave</th>
-              <th>Kinky curls</th>
-            </tr>
-            <tr>
-              <td>8"</td>
-              <td>€250.00</td>
-              <td>€290.00</td>
-            </tr>
-            <tr>
-              <td>10"</td>
-              <td>€280.00</td>
-              <td>€300.00</td>
-            </tr>
-            <tr>
-              <td>12"</td>
-              <td>€300.00</td>
-              <td>€330.00</td>
-            </tr>
-            <tr>
-              <td>14"</td>
-              <td>€330.00</td>
-              <td>€350.00</td>
-            </tr>
-            <tr>
-              <td>16"</td>
-              <td>€350.00</td>
-              <td>€370.00</td>
-            </tr>
-            <tr>
-              <td>18"</td>
-              <td>€370.00</td>
-              <td>€390.00</td>
-            </tr>
-            <tr>
-              <td>20"</td>
-              <td>€390.00</td>
-              <td>€400.00</td>
-            </tr>
-            <tr>
-              <td>22"</td>
-              <td>€420.00</td>
-              <td>€450.00</td>
-            </tr>
-            <tr>
-              <td>24"</td>
-              <td>€470.00</td>
-              <td>€490.00</td>
-            </tr>
-            <tr>
-              <td>26"</td>
-              <td>€530.00</td>
-              <td>€550.00</td>
-            </tr>
-            <tr>
-              <td>28"</td>
-              <td>€590.00</td>
-              <td>€600.00</td>
-            </tr>
-            <tr>
-              <td>30"</td>
-              <td>€650.00</td>
-              <td>€690.00</td>
-            </tr>
-            <tr>
-              <td>32"</td>  
-              <td>€700.00</td>
-              <td>€750.00</td>
-            </tr>
-            <tr>
-              <td>34"</td>
-              <td>€770.00</td> 
-              <td>€790.00</td>
-            </tr>
-            <tr>
-              <td>36"</td>
-              <td>€800.00</td>
-              <td>€850.00</td>
-            </tr>
-              
-          </table>
-          `;
-}
-
-function showlist2() {
-  document.getElementById("galleryright").innerHTML = `
 <div class="columns">
   <ul class="price">
     <li class="header">KNOTLESS / BRAIDS</li>
@@ -127,6 +36,168 @@ function showlist2() {
   </ul>
 </div>
  `;
+}
+
+function showlist2() {
+  document.getElementById("galleryright").innerHTML = `
+  <div class="columns2 ">
+  <ul class="price">
+    <li class="header">BONE STRAIGHT </li>
+    
+    <li> <div class="lenght"> 8"</div> 
+    <div class="lenght-price"> €250.00</div></li>
+    <li> <div class="lenght"> 10"</div> 
+    <div class="lenght-price"> €280.00</div></li>
+    <li> <div class="lenght"> 12"</div> 
+    <div class="lenght-price"> €300.00</div></li>
+    <li> <div class="lenght"> 14"</div> 
+    <div class="lenght-price"> €330.00</div></li>
+    <li> <div class="lenght"> 16"</div> 
+    <div class="lenght-price"> €350.00</div></li>
+    <li> <div class="lenght"> 18"</div> 
+    <div class="lenght-price"> €370.00</div></li>
+    <li> <div class="lenght"> 20"</div> 
+    <div class="lenght-price"> €390.00</div></li>
+    <li> <div class="lenght"> 22"</div> 
+    <div class="lenght-price"> €420.00</div></li>
+    <li> <div class="lenght"> 24"</div> 
+    <div class="lenght-price"> €470.00</div></li>
+    <li> <div class="lenght"> 26"</div> 
+    <div class="lenght-price"> €530.00</div></li>
+    <li> <div class="lenght"> 28"</div> 
+    <div class="lenght-price"> €590.00</div></li>
+    <li> <div class="lenght"> 30"</div> 
+    <div class="lenght-price"> €650.00</div></li>
+    <li> <div class="lenght"> 32"</div> 
+    <div class="lenght-price"> €700.00</div></li>
+    <li> <div class="lenght"> 34"</div> 
+    <div class="lenght-price"> €770.00</div></li>
+    <li> <div class="lenght"> 36"</div> 
+    <div class="lenght-price"> €800.00</div></li>
+   
+   
+    <li class="grey"><a href="#" class="button">Buy Here</a></li>
+  </ul>
+</div>
+
+<div class="columns2">
+  <ul class="price">
+    <li class="header" >BODY WAVE</li>
+    <li> <div class="lenght"> 8"</div> 
+    <div class="lenght-price"> €250.00</div></li>
+    <li> <div class="lenght"> 10"</div> 
+    <div class="lenght-price"> €280.00</div></li>
+    <li> <div class="lenght"> 12"</div> 
+    <div class="lenght-price"> €300.00</div></li>
+    <li> <div class="lenght"> 14"</div> 
+    <div class="lenght-price"> €330.00</div></li>
+    <li> <div class="lenght"> 16"</div> 
+    <div class="lenght-price"> €350.00</div></li>
+    <li> <div class="lenght"> 18"</div> 
+    <div class="lenght-price"> €370.00</div></li>
+    <li> <div class="lenght"> 20"</div> 
+    <div class="lenght-price"> €390.00</div></li>
+    <li> <div class="lenght"> 22"</div> 
+    <div class="lenght-price"> €420.00</div></li>
+    <li> <div class="lenght"> 24"</div> 
+    <div class="lenght-price"> €470.00</div></li>
+    <li> <div class="lenght"> 26"</div> 
+    <div class="lenght-price"> €530.00</div></li>
+    <li> <div class="lenght"> 28"</div> 
+    <div class="lenght-price"> €590.00</div></li>
+    <li> <div class="lenght"> 30"</div> 
+    <div class="lenght-price"> €650.00</div></li>
+    <li> <div class="lenght"> 32"</div> 
+    <div class="lenght-price"> €700.00</div></li>
+    <li> <div class="lenght"> 34"</div> 
+    <div class="lenght-price"> €770.00</div></li>
+    <li> <div class="lenght"> 36"</div> 
+    <div class="lenght-price"> €800.00</div></li>
+   
+   
+    <li class="grey"><a href="#" class="button">Buy Here</a></li>
+  </ul>
+</div>
+
+<div class="columns2">
+  <ul class="price">
+    <li class="header" style="background-image: url(images/wig.jpeg);">DEEP CURLS</li>
+   
+    <li> <div class="lenght"> 8"</div> 
+    <div class="lenght-price"> €250.00</div></li>
+    <li> <div class="lenght"> 10"</div> 
+    <div class="lenght-price"> €280.00</div></li>
+    <li> <div class="lenght"> 12"</div> 
+    <div class="lenght-price"> €300.00</div></li>
+    <li> <div class="lenght"> 14"</div> 
+    <div class="lenght-price"> €330.00</div></li>
+    <li> <div class="lenght"> 16"</div> 
+    <div class="lenght-price"> €350.00</div></li>
+    <li> <div class="lenght"> 18"</div> 
+    <div class="lenght-price"> €370.00</div></li>
+    <li> <div class="lenght"> 20"</div> 
+    <div class="lenght-price"> €390.00</div></li>
+    <li> <div class="lenght"> 22"</div> 
+    <div class="lenght-price"> €420.00</div></li>
+    <li> <div class="lenght"> 24"</div> 
+    <div class="lenght-price"> €470.00</div></li>
+    <li> <div class="lenght"> 26"</div> 
+    <div class="lenght-price"> €530.00</div></li>
+    <li> <div class="lenght"> 28"</div> 
+    <div class="lenght-price"> €590.00</div></li>
+    <li> <div class="lenght"> 30"</div> 
+    <div class="lenght-price"> €650.00</div></li>
+    <li> <div class="lenght"> 32"</div> 
+    <div class="lenght-price"> €700.00</div></li>
+    <li> <div class="lenght"> 34"</div> 
+    <div class="lenght-price"> €770.00</div></li>
+    <li> <div class="lenght"> 36"</div> 
+    <div class="lenght-price"> €800.00</div></li>
+   
+   
+    <li class="grey"><a href="#" class="button">Buy Here</a></li>
+  </ul>
+</div>
+<div class="columns2">
+  <ul class="price">
+    <li class="header" style="background-image: url(images/wig.jpeg);">KINKY CURLS</li>
+   
+  <li> <div class="lenght"> 8"</div> 
+    <div class="lenght-price"> €250.00</div></li>
+    <li> <div class="lenght"> 10"</div> 
+    <div class="lenght-price"> €280.00</div></li>
+    <li> <div class="lenght"> 12"</div> 
+    <div class="lenght-price"> €300.00</div></li>
+    <li> <div class="lenght"> 14"</div> 
+    <div class="lenght-price"> €330.00</div></li>
+    <li> <div class="lenght"> 16"</div> 
+    <div class="lenght-price"> €350.00</div></li>
+    <li> <div class="lenght"> 18"</div> 
+    <div class="lenght-price"> €370.00</div></li>
+    <li> <div class="lenght"> 20"</div> 
+    <div class="lenght-price"> €390.00</div></li>
+    <li> <div class="lenght"> 22"</div> 
+    <div class="lenght-price"> €420.00</div></li>
+    <li> <div class="lenght"> 24"</div> 
+    <div class="lenght-price"> €470.00</div></li>
+    <li> <div class="lenght"> 26"</div> 
+    <div class="lenght-price"> €530.00</div></li>
+    <li> <div class="lenght"> 28"</div> 
+    <div class="lenght-price"> €590.00</div></li>
+    <li> <div class="lenght"> 30"</div> 
+    <div class="lenght-price"> €650.00</div></li>
+    <li> <div class="lenght"> 32"</div> 
+    <div class="lenght-price"> €700.00</div></li>
+    <li> <div class="lenght"> 34"</div> 
+    <div class="lenght-price"> €770.00</div></li>
+    <li> <div class="lenght"> 36"</div> 
+    <div class="lenght-price"> €800.00</div></li>
+   
+   
+    <li class="grey"><a href="#" class="button">Buy Here</a></li>
+  </ul>
+</div>
+          `;
 }
 function showlist3() {
   document.getElementById("galleryright").innerHTML = `
