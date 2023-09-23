@@ -91,44 +91,42 @@ function showlist1() {
 
 function showlist2() {
   document.getElementById("galleryright").innerHTML = `
+<div class="columns">
+  <ul class="price">
+    <li class="header">KNOTLESS / BRAIDS</li>
+    
+    <li><h4>Short Length</h4> <div class="adults-kids"> Adults €85.00</div> <div class="adults-kids"> Kids €45.00</div></li>
+    <li><h4>Short Length</h4> <div class="adults-kids"> Adults €85.00</div> <div class="adults-kids"> Kids €45.00</div> </li>
+    <li><h4>Short Length</h4> <div class="adults-kids"> Adults €85.00</div> <div class="adults-kids"> Kids €45.00</div></li>
+   
+    <li class="grey"><a href="#" class="button">Schedule here</a></li>
+  </ul>
+</div>
 
-    <table>
-            <tr>
-              <th>Company</th>
-              <th>Contact</th>
-              <th>Country</th>
-            </tr>
-            <tr>
-              <td>Alfreds Futterkiste</td>
-              <td>Maria Anders</td>
-              <td>Germany</td>
-            </tr>
-            <tr>
-              <td>Centro comercial Moctezuma</td>
-              <td>Francisco Chang</td>
-              <td>Mexico</td>
-            </tr>
-            <tr>
-              <td>Ernst Handel</td>
-              <td>Roland Mendel</td>
-              <td>Austria</td>
-            </tr>
-            <tr>
-              <td>Island Trading</td>
-              <td>Helen Bennett</td>
-              <td>UK</td>
-            </tr>
-            <tr>
-              <td>Laughing Bacchus Winecellars</td>
-              <td>Yoshi Tannamuri</td>
-              <td>Canada</td>
-            </tr>
-            <tr>
-              <td>Magazzini Alimentari Riuniti</td>
-              <td>Giovanni Rovelli</td>
-              <td>Italy</td>
-            </tr>
-          </table>
+<div class="columns">
+  <ul class="price">
+    <li class="header" >TWIST BRAIDS</li>
+    
+    <li><h4>Short Length</h4> <div class="adults"> Adults €85.00</div> <div class="kids"> Kids €45.00</div></li>
+    <li><h4>Short Length</h4> <div class="adults"> Adults €85.00</div> <div class="kids"> Kids €45.00</div> </li>
+    <li><h4>Short Length</h4> <div class="adults"> Adults €85.00</div> <div class="kids"> Kids €45.00</div></li>
+    
+    <li class="grey"><a href="#" class="button">Schedule here</a></li>
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header" style="background-image: url(images/wig.jpeg);">FAUX LOCS</li>
+   
+    <li><h4>Short Length</h4> <div class="adults"> Adults €85.00</div> <div class="kids"> Kids €45.00</div></li>
+    <li><h4>Short Length</h4> <div class="adults"> Adults €85.00</div> <div class="kids"> Kids €45.00</div> </li>
+    <li><h4>Short Length</h4> <div class="adults"> Adults €85.00</div> <div class="kids"> Kids €45.00</div></li>
+    
+    <li class="grey"><a href="#" class="button">Schedule here</a></li>
+  </ul>
+</div>
+
           `;
 }
 function showlist3() {
