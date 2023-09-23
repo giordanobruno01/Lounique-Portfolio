@@ -95,9 +95,9 @@ function showlist2() {
   <ul class="price">
     <li class="header">KNOTLESS / BRAIDS</li>
     
-    <li><h4>Short Length</h4> <div class="adults-kids"> Adults €85.00</div> <div class="adults-kids"> Kids €45.00</div></li>
-    <li><h4>Short Length</h4> <div class="adults-kids"> Adults €85.00</div> <div class="adults-kids"> Kids €45.00</div> </li>
-    <li><h4>Short Length</h4> <div class="adults-kids"> Adults €85.00</div> <div class="adults-kids"> Kids €45.00</div></li>
+    <li><h3>Short Length</h3> <div class="adults-kids"> Adults €85.00</div> <div class="adults-kids"> Kids €45.00</div></li>
+    <li><h3>Medium Length</h3> <div class="adults-kids"> Adults €105.00</div> <div class="adults-kids"> Kids €45.00</div> </li>
+    <li><h3>Long Lenth</h3> <div class="adults-kids"> Adults €125.00</div> <div class="adults-kids"> Kids €55.00</div></li>
    
     <li class="grey"><a href="#" class="button">Schedule here</a></li>
   </ul>
@@ -107,9 +107,9 @@ function showlist2() {
   <ul class="price">
     <li class="header" >TWIST BRAIDS</li>
     
-    <li><h4>Short Length</h4> <div class="adults"> Adults €85.00</div> <div class="kids"> Kids €45.00</div></li>
-    <li><h4>Short Length</h4> <div class="adults"> Adults €85.00</div> <div class="kids"> Kids €45.00</div> </li>
-    <li><h4>Short Length</h4> <div class="adults"> Adults €85.00</div> <div class="kids"> Kids €45.00</div></li>
+    <li><h3>Short Length</h3> <div class="adults-kids"> Adults €75.00</div> <div class="adults-kids"> Kids €45.00</div></li>
+    <li><h3>Medium Length</h3> <div class="adults-kids"> Adults €85.00</div> <div class="adults-kids"> Kids €45.00</div> </li>
+    <li><h3>Long Lenth</h3> <div class="adults-kids"> Adults €90.00</div> <div class="adults-kids"> Kids €55.00</div></li>
     
     <li class="grey"><a href="#" class="button">Schedule here</a></li>
   </ul>
@@ -119,15 +119,14 @@ function showlist2() {
   <ul class="price">
     <li class="header" style="background-image: url(images/wig.jpeg);">FAUX LOCS</li>
    
-    <li><h4>Short Length</h4> <div class="adults"> Adults €85.00</div> <div class="kids"> Kids €45.00</div></li>
-    <li><h4>Short Length</h4> <div class="adults"> Adults €85.00</div> <div class="kids"> Kids €45.00</div> </li>
-    <li><h4>Short Length</h4> <div class="adults"> Adults €85.00</div> <div class="kids"> Kids €45.00</div></li>
+    <li><h3>Short Length</h3> <div class="adults-kids"> Adults €100.00</div> <div class="adults-kids"> Kids €45.00</div></li>
+    <li><h3>Medium Length</h3> <div class="adults-kids"> Adults €85.00</div> <div class="adults-kids"> Kids €45.00</div> </li>
+    <li><h3>Long Lenth</h3> <div class="adults-kids"> Adults €90.00</div> <div class="adults-kids"> Kids €55.00</div></li>
     
     <li class="grey"><a href="#" class="button">Schedule here</a></li>
   </ul>
 </div>
-
-          `;
+ `;
 }
 function showlist3() {
   document.getElementById("galleryright").innerHTML = `
