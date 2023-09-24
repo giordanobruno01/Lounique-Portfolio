@@ -11,7 +11,7 @@ function showlist1() {
     <li class="grey"><a href="#" class="button">Schedule here</a></li>
   </ul>
 </div>
-
+ 
 <div class="columns colsmall ">
   <ul class="price">
     <li class="header" style="background-image: url(images/900px/3.jpeg);" >TWIST BRAIDS</li>
