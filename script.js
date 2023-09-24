@@ -1,7 +1,7 @@
 function showlist1() {
   document.getElementById("galleryright").innerHTML = `
-<div class="columns">
-  <ul class="price">
+<div class="columns colsmall">
+  <ul class="price" >
     <li class="header">KNOTLESS / BRAIDS</li>
     
     <li><h3>Short Length</h3> <div class="adults-kids"> Adults €85.00</div> <div class="adults-kids"> Kids €45.00</div></li>
@@ -12,7 +12,7 @@ function showlist1() {
   </ul>
 </div>
 
-<div class="columns">
+<div class="columns colsmall ">
   <ul class="price">
     <li class="header" style="background-image: url(images/900px/3.jpeg);" >TWIST BRAIDS</li>
     
@@ -24,7 +24,7 @@ function showlist1() {
   </ul>
 </div>
 
-<div class="columns">
+<div class="columns colsmall">
   <ul class="price">
     <li class="header">FAUX LOCS <img src="images/services/Faux locs.JPG" alt=""></li>
    
@@ -199,85 +199,31 @@ function showlist2() {
 </div>
           `;
 }
+
 function showlist3() {
   document.getElementById("galleryright").innerHTML = `
-    <table>
-            <tr>
-              <th>Company</th>
-              <th>Contact</th>
-              <th>Country</th>
-            </tr>
-            <tr>
-              <td>Alfreds Futterkiste</td>
-              <td>Maria Anders</td>
-              <td>Germany</td>
-            </tr>
-            <tr>
-              <td>Centro comercial Moctezuma</td>
-              <td>Francisco Chang</td>
-              <td>Mexico</td>
-            </tr>
-            <tr>
-              <td>Ernst Handel</td>
-              <td>Roland Mendel</td>
-              <td>Austria</td>
-            </tr>
-            <tr>
-              <td>Island Trading</td>
-              <td>Helen Bennett</td>
-              <td>UK</td>
-            </tr>
-            <tr>
-              <td>Laughing Bacchus Winecellars</td>
-              <td>Yoshi Tannamuri</td>
-              <td>Canada</td>
-            </tr>
-            <tr>
-              <td>Magazzini Alimentari Riuniti</td>
-              <td>Giovanni Rovelli</td>
-              <td>Italy</td>
-            </tr>
-          </table>
-          `;
-}
-function showlist4() {
-  document.getElementById("galleryright").innerHTML = `
-    <table>
-            <tr>
-              <th>Company</th>
-              <th>Contact</th>
-              <th>Country</th>
-            </tr>
-            <tr>
-              <td>Alfreds Futterkiste</td>
-              <td>Maria Anders</td>
-              <td>Germany</td>
-            </tr>
-            <tr>
-              <td>Centro comercial Moctezuma</td>
-              <td>Francisco Chang</td>
-              <td>Mexico</td>
-            </tr>
-            <tr>
-              <td>Ernst Handel</td>
-              <td>Roland Mendel</td>
-              <td>Austria</td>
-            </tr>
-            <tr>
-              <td>Island Trading</td>
-              <td>Helen Bennett</td>
-              <td>UK</td>
-            </tr>
-            <tr>
-              <td>Laughing Bacchus Winecellars</td>
-              <td>Yoshi Tannamuri</td>
-              <td>Canada</td>
-            </tr>
-            <tr>
-              <td>Magazzini Alimentari Riuniti</td>
-              <td>Giovanni Rovelli</td>
-              <td>Italy</td>
-            </tr>
-          </table>
+    <div class="columns3">
+  <ul class="price men">
+    <li class="header">MEN <img src="images/services/travis.jpeg" alt="Travis Braids"></li>
+   
+    <li><h3>Travis Braids</h3> <div class="adults-kids"> Adults €45.00</div> <div class="adults-kids"> Kids €35.00</div></li>
+    <li><h3>Corn Rows</h3> <div class="adults-kids"> Adults €40.00</div> <div class="adults-kids"> Kids €30.00</div> </li>
+  
+    <li class="grey"><a href="#" class="button">Schedule here</a></li>
+  </ul>
+</div>
+<div class="columns3">
+  <ul class="price">
+    <li class="header" style="background-image: url(images/900px/3.jpeg);" >OTHERS </li>
+    
+    <li><h4>Cornrows underneath wig</h4> <div class="adults-kids"> €15.00</div></li>
+    <li><h4>Wig revamps</h4> <div class="adults-kids"> €100.00</div> </li>
+    <li><h4>Installaton /Weave in</h4> <div class="adults-kids">€100.00</div> </li>
+    <li><h4>Melt band for edges</h4> <div class="adults-kids"> €10.00</div> </li>
+    <li><h4>Braids take down</h4> <div class="adults-kids">  €40.00</div> </li> 
+    
+    <li class="grey"><a href="#" class="button">Schedule here</a></li>
+  </ul>
+</div>
           `;
 }
