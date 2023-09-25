@@ -13,7 +13,7 @@ function showlist1() {
 </div>
  
 <div class="columns colsmall ">
-  <ul class="price">
+  <ul class="price"> 
     <li class="header" style="background-image: url(images/900px/3.jpeg);" >TWIST BRAIDS</li>
     
     <li><h3>Short Length</h3> <div class="adults-kids"> Adults €75.00</div> <div class="adults-kids"> Kids €45.00</div></li>
