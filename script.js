@@ -20,7 +20,7 @@ function showlist1() {
     <li><h3>Medium Length</h3> <div class="adults-kids"> Adults €85.00</div> <div class="adults-kids"> Kids €45.00</div> </li>
     <li><h3>Long Lenth</h3> <div class="adults-kids"> Adults €90.00</div> <div class="adults-kids"> Kids €55.00</div></li>
     
-    <li class="grey"><a href="#" class="button">Schedule here</a></li>
+    <li class="grey"><a href="https://www.fresha.com/a/louniquehair-dublin-oconnell-street-upper-y3gzfoww/booking?dppub=true&menu=true" target="_blank" class="button" >Schedule here</a></li>
   </ul>
 </div>
 

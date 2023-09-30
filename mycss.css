@@ -35,12 +35,12 @@ body {
 }
 .aboutright {
   background-image: url(images/LH\ web\ 9\ -\ right.png);
-
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
   background-position-x: center;
   height: 100%;
+  font-size: 1.2vw;
 }
 .aboutright > li,
 ul,
@@ -429,9 +429,10 @@ footer {
     background-size: cover;
     background-position-y: bottom;
     background-position-x: center;
-
     height: 65%;
-  }
+    font-size: 3.5vw;
+   
+    }
   .aboutright > li,
   ul,
   h1 {
@@ -571,6 +572,7 @@ footer {
     background-position-y: bottom;
     background-position-x: center;
     height: 50%;
+    font-size: 1vw;
   }
   .aboutright > li,
   ul,
@@ -667,6 +669,7 @@ footer {
     background-position-y: bottom;
     background-position-x: center;
     height: 50%;
+    font-size: 1.3vw;
   }
   .aboutright > li,
   ul,
