@@ -393,7 +393,15 @@ footer {
   width: 100%;
   display: block;
 }
-
+#opt1{
+  display: none;
+}
+#opt2{
+  display: none;
+}
+#opt3{
+  display: none;
+}
 /* Extra Small devices (landscape phones, up to 600px) */
 @media (max-width: 600px) {
   .columns {
