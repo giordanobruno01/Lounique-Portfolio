@@ -283,6 +283,7 @@ footer {
 }
 
 .columns {
+  
   float: left;
   width: 33.3%;
   padding: 8px;
@@ -294,6 +295,9 @@ footer {
   padding: 8px;
   height: 100%;
 }
+/* .columns2 .price{
+
+} */
 .columns3 {
   /* margin-left: 6%; */
   float: left;
@@ -312,11 +316,13 @@ footer {
   height: 100%;
 }
 
+
 .price:hover {
   box-shadow: 0 8px 12px 0 #f7b308b2;
 }
 
 .price .header {
+  
   background-color: #f7b308b2;
   color: white;
   font-size: 25px;
@@ -400,7 +406,7 @@ footer {
   display: none;
 }
 #opt3{
-  display: none;
+  display: block;
 }
 /* Extra Small devices (landscape phones, up to 600px) */
 @media (max-width: 600px) {
