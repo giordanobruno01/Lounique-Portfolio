@@ -361,8 +361,9 @@ footer {
   border-bottom: 1px solid #f7b3082c;
   height: 29%;
   text-align: center;
+  
 }
-.columns3 .men .grey {
+.columns3  .men .grey {
   border-bottom: 1px solid #f7b3082c;
   height: 12%;
   text-align: center;
@@ -571,100 +572,6 @@ footer {
     position: relative;
   }
 }
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (min-width: 600px) {
-  .cover_80 {
-    width: 95%;
-    height: 95%;
-    margin-left: auto;
-    margin-right: auto;
-    background-repeat: no-repeat;
-    background-position-y: center;
-    background-position-x: center;
-    background-size: cover;
-  }
-  .aboutleft {
-    background-image: url(images/LH\ web\ 8.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: center;
-    background-position-x: center;
-    height: 50%;
-  }
-  .aboutright {
-    background-image: url(images/LH\ web\ 9\ -\ right.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: bottom;
-    background-position-x: center;
-    height: 50%;
-    font-size: 1vw;
-  }
-  .aboutright > li,
-  ul,
-  h1 {
-    text-align: center;
-    padding: 0%;
-  }
-  #events-section {
-    height: 100vh;
-    background-image: url(images/back1-crop.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: bottom;
-    background-position-x: center;
-    justify-content: center;
-    align-items: center;
-  }
-  .eventsright {
-    height: 90%;
-    width: 90%;
-    margin: 0%;
-    
-  }
-  .card {
-    width: 40%;
-    height: 30%;
-  }
-  .galleryleft {
-    background-color: white;
-    height: 30%;
-    width: 100%;
-    padding: 10px 10px 0 15px;
-  }
-  .galleryleft div {
-    width: 30%;
-    margin: 10px;
-  }
-  
-  .galleryright {
-    background-color: white;
-    height: 80%;
-    width: 100%;
-    display: block;
-    overflow-x: scroll;
-  }
-  .pricelist {
-    width: 30%;
-    height: 95%;
-  }
-
-  .contactleft {
-    background-image: url(images/LH\ web\ 7.1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 50%;
-    position: relative;
-  }
-  .contactright {
-    background-image: url(images/LH\ web\ 7.2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 50%;
- 
-    position: relative;
-  }
-}  */
 
 /* Medium devices (tablets, 576px up to 992px) */
 @media ((min-width: 600px)and (max-width:992px)) {
@@ -724,26 +631,50 @@ footer {
   }
   .galleryleft {
     background-color: white;
-    height: 30%;
+    height: 25%;
     width: 100%;
-    padding: 10px 10px 0 15px;
+  padding: 20px 10px 0 10px;
+    
   }
   .galleryleft div {
     width: 30%;
-    margin: 13px;
+    margin-left: 14px;
+    
   }
 
   .galleryright {
     background-color: white;
-    height: 80%;
+    height: 75%;
     width: 100%;
     display: block;
-    overflow-x: scroll;
+    padding: 10px;
   }
+  /* #opt1{
+    height: 100%;
+    display: none;
+  }
+  #opt2{
+    height: 100%;
+    display: none;
+  }
+  #opt3{
+    height: 100%;
+    display: none;
+  } */
+  .price{
+    height: 100;
+  }
+  /* .price .header{
+    height: 30%;
+
+  } */
   .pricelist {
-    width: 30%;
-    height: 95%;
+    width: 20%;
+    height: 100%;
+  
+
   }
+  
 
   .contactleft {
     background-image: url(images/LH\ web\ 7.1.png);
