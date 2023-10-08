@@ -20,8 +20,6 @@ $(document).ready(function () {
   });
 });
 
-
-
 // function showlist1() {
 
 //   document.getElementById("galleryright").innerHTML = `

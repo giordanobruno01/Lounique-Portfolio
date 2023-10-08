@@ -5,7 +5,7 @@
 body {
   background-color: white;
 }
-.cover_80 { 
+.cover_80 {
   width: 80%;
   height: 80%;
   margin-left: auto;
@@ -97,25 +97,18 @@ h1 {
   height: 100vh;
 }
 .galleryleft {
-  padding: 20px 0 20px 10px;
+  padding: 20px 10px 20px 20px;
   background-color: white;
-  /* background-repeat: no-repeat;
-  background-size: cover; */
   height: 100%;
   width: 20%;
 }
 .galleryright {
-  padding: 20px;
+  padding: 12px 12px 12px 0;
   background-color: white;
-  /* background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: center;
-  background-position-x: center; */
   height: 100%;
-  width: 100%;
+  width: 80%;
 }
 .galleryleft div {
-  padding-top: 10px;
   color: white;
   font-size: 1em;
   text-align: center;
@@ -127,9 +120,9 @@ h1 {
   box-shadow: 0 8px 8px 0 #f7b308b2;
 }
 .pricelist {
-  padding: 20px 0 10px 0;
+  padding: 0;
   width: 100%;
-  height: 33%;
+  height: 32.5%;
 }
 
 .pricelist button {
@@ -139,6 +132,7 @@ h1 {
   width: 100%;
   text-align: justify;
   text-decoration: underline;
+  padding: 0;
 }
 
 #contact-section {
@@ -283,7 +277,6 @@ footer {
 }
 
 .columns {
-  
   float: left;
   width: 33.3%;
   padding: 8px;
@@ -295,6 +288,7 @@ footer {
   padding: 8px;
   height: 100%;
 }
+
 /* .columns2 .price{
 
 } */
@@ -316,17 +310,15 @@ footer {
   height: 100%;
 }
 
-
 .price:hover {
   box-shadow: 0 8px 12px 0 #f7b308b2;
 }
 
 .price .header {
-  
   background-color: #f7b308b2;
   color: white;
   font-size: 25px;
-  height: 35%;
+  height: 42%;
 }
 .header img {
   width: 80%;
@@ -338,16 +330,17 @@ footer {
   font-size: 25px;
   height: 20%;
 }
+
 .columns3 .price .header {
   background-color: #f7b308b2;
   color: white;
   font-size: 25px;
-  height: 20%;
+  height: 30%;
 }
 
 .price li {
   border-bottom: 1px solid #f7b3082c;
-  height: 15%;
+  height: 16%;
   text-align: center;
 }
 .columns2 .price li {
@@ -357,12 +350,21 @@ footer {
 }
 .columns3 .price li {
   border-bottom: 1px solid #f7b3082c;
-  height: 10.6%;
+  height: 11.7%;
   text-align: center;
 }
+.columns3 .price h3 {
+  padding: 4px;
+}
 .columns3 .men li {
+  padding-top: 10%;
   border-bottom: 1px solid #f7b3082c;
-  height: 15%;
+  height: 29%;
+  text-align: center;
+}
+.columns3 .men .grey {
+  border-bottom: 1px solid #f7b3082c;
+  height: 12%;
   text-align: center;
 }
 .lenght {
@@ -375,9 +377,12 @@ footer {
   width: 50%;
   float: right;
 }
-
+.price h3 {
+  margin: 0;
+  padding-top: 5%;
+}
 .price .grey {
-  background-color: #f7b3082c;
+  background-color: #926c09b3;
   font-size: 20px;
   height: 10%;
   display: flex;
@@ -386,27 +391,34 @@ footer {
 }
 
 .button {
-  background-color: #926c09b3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
   border: none;
   color: white;
   text-align: center;
   text-decoration: none;
-  font-size: 18px;
-  padding: 3px;
+  font-size: 1.8rem;
+  align-items: center;
 }
 .adults-kids {
   height: 20%;
   width: 100%;
   display: block;
 }
-#opt1{
+#opt1 {
   display: none;
+  height: 100%;
 }
-#opt2{
+#opt2 {
   display: none;
+  height: 100%;
 }
-#opt3{
-  display: block;
+#opt3 {
+  display: none;
+  height: 100%;
 }
 /* Extra Small devices (landscape phones, up to 600px) */
 @media (max-width: 600px) {
@@ -445,8 +457,7 @@ footer {
     background-position-x: center;
     height: 65%;
     font-size: 3.5vw;
-   
-    }
+  }
   .aboutright > li,
   ul,
   h1 {
@@ -511,6 +522,7 @@ footer {
   }
 
   .pricelist {
+    margin-left: 20px;
     width: 25%;
     height: 95%;
   }
@@ -560,7 +572,7 @@ footer {
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
- /* @media only screen and (min-width: 600px) {
+/* @media only screen and (min-width: 600px) {
   .cover_80 {
     width: 95%;
     height: 95%;
@@ -652,9 +664,7 @@ footer {
  
     position: relative;
   }
-}  */ 
- 
-
+}  */
 
 /* Medium devices (tablets, 576px up to 992px) */
 @media ((min-width: 600px)and (max-width:992px)) {
@@ -662,7 +672,7 @@ footer {
     width: 95%;
     height: 95%;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: center;
