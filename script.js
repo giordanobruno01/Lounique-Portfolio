@@ -2,7 +2,7 @@ $(document).ready(function () {
   $("#left1").click(function () {
     $("#opt2").hide();
     $("#opt3").hide();
-    $("#opt1").toggle();
+    $("#opt1").toggle(); 
   });
 });
 $(document).ready(function () {
