@@ -180,6 +180,13 @@ h1 {
   height: 100%;
   position: relative;
 }
+#reviews{
+ 
+  background: #f7b3082c;
+  height: 70vh;
+  
+
+}
 footer {
   background: #f7b3082c;
   height: 30vh;
