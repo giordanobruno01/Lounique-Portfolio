@@ -322,15 +322,16 @@ footer {
 }
 
 .price .header {
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: #f7b308b2;
   color: white;
   font-size: 25px;
   height: 42%;
 }
-.header img {
-  width: 80%;
-  height: 80%;
-}
+/* .header img {
+  
+} */
 .columns2 .price .header {
   background-color: #f7b308b2;
   color: white;
