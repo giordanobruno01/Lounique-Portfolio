@@ -188,6 +188,8 @@ h1 {
 #reviews {
  
   height: 70vh;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer {
@@ -549,8 +551,8 @@ footer {
     height: 95%;
   }
   .colsmall {
-    width: 60vw;
-    margin-left: 12%;
+    width: 80vw;
+    margin-left: 6%;
   }
 
   .columns3 .price li {
