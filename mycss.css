@@ -180,12 +180,9 @@ h1 {
   height: 100%;
   position: relative;
 }
-#reviews{
- 
+#reviews {
   background: #f7b3082c;
   height: 70vh;
-  
-
 }
 footer {
   background: #f7b3082c;
@@ -324,6 +321,7 @@ footer {
 .price .header {
   background-repeat: no-repeat;
   background-size: cover;
+  background-position-x: center;
   background-color: #f7b308b2;
   color: white;
   font-size: 25px;
@@ -369,9 +367,8 @@ footer {
   border-bottom: 1px solid #f7b3082c;
   height: 29%;
   text-align: center;
-  
 }
-.columns3  .men .grey {
+.columns3 .men .grey {
   border-bottom: 1px solid #f7b3082c;
   height: 12%;
   text-align: center;
@@ -588,7 +585,7 @@ footer {
     height: 95%;
     margin-left: auto;
     margin-right: auto;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: center;
     background-size: cover;
@@ -641,13 +638,11 @@ footer {
     background-color: white;
     height: 25%;
     width: 100%;
-  padding: 20px 10px 0 10px;
-    
+    padding: 20px 10px 0 10px;
   }
   .galleryleft div {
     width: 30%;
     margin-left: 14px;
-    
   }
 
   .galleryright {
@@ -669,7 +664,7 @@ footer {
     height: 100%;
     display: none;
   } */
-  .price{
+  .price {
     height: 100;
   }
   /* .price .header{
@@ -679,10 +674,7 @@ footer {
   .pricelist {
     width: 20%;
     height: 100%;
-  
-
   }
-  
 
   .contactleft {
     background-image: url(images/LH\ web\ 7.1.png);
