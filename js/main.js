@@ -64,6 +64,7 @@ $(function() {
 			e.preventDefault();
 
 			if ( $('body').hasClass('offcanvas-menu') ) {
+				console.log()
 				$('body').removeClass('offcanvas-menu');
 				$this.removeClass('active');
 			} else {

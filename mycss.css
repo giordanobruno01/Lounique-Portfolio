@@ -5,6 +5,11 @@
 body {
   background-color: white;
 }
+.site-mobile-menu {
+  width: 200px;
+  background-color: rgb(250, 242, 232);
+}
+
 .cover_80 {
   width: 80%;
   height: 80%;
@@ -181,9 +186,10 @@ h1 {
   position: relative;
 }
 #reviews {
-  background: #f7b3082c;
+ 
   height: 70vh;
 }
+
 footer {
   background: #f7b3082c;
   height: 30vh;
@@ -414,6 +420,15 @@ footer {
   width: 100%;
   display: block;
 }
+#opt0 {
+  padding-top: 100px;
+  text-align: center;
+ 
+  display: block;
+  height: 100%; 
+  margin-left: auto;
+  margin-right: auto;
+}
 #opt1 {
   display: none;
   height: 100%;
@@ -428,6 +443,7 @@ footer {
 }
 /* Extra Small devices (landscape phones, up to 600px) */
 @media (max-width: 600px) {
+  
   .columns {
     width: 100%;
   }

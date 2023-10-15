@@ -6,8 +6,12 @@
 
 
 body {
+
+	
+ 
 	font-family: $font-family-sans-serif;
 	background-color: #fff;
+	
 
 	height: 200vh;
 	position: relative;
@@ -75,7 +79,7 @@ a {
 .site-navbar {
 	margin-bottom: 0px;
 	width: 100%;
-	// border-bottom: 1px solid rgba($white, .1);
+	border-bottom: 1px solid rgba($white, .1);
 	
 	.site-logo {
 		font-weight: 200;
@@ -100,6 +104,7 @@ a {
 				text-decoration: none!important;
 				display: inline-block;
 				font-weight: 500;
+				
 			}
 			> li {
 				display: inline-block;
