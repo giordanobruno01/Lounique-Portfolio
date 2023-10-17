@@ -3,7 +3,7 @@ $(document).ready(function () {
     $("#opt0").hide();
     $("#opt2").hide();
     $("#opt3").hide();
-    $("#opt1").toggle(); 
+    $("#opt1").toggle();
   });
 });
 
@@ -28,9 +28,14 @@ $(document).ready(function () {
 //   $(".site-mobile-menu-body").click(function () {
 //     console.log("hi");
 //     $(".site-mobile-menu").show();
-//     // $(".icon-close2").hide();
+//     // $(".icon-close2").hide(); 
 //   });
 // });
+function notready() {
+  var checkbox = document.getElementById("notready");
+  alert("In order to purchase wigs and bundles, all orders must be made through e-mail");
+  return;
+}
 
 var slideIndex = 1;
 showDivs(slideIndex);
