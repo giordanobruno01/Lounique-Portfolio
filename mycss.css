@@ -353,7 +353,7 @@ footer {
   background-color: #f7b308b2;
   color: white;
   font-size: 25px;
-  height: 42%;
+  height: 40%;
 }
 /* .header img {
   
@@ -393,7 +393,7 @@ footer {
 .columns3 .men li {
   padding-top: 10%;
   border-bottom: 1px solid #f7b3082c;
-  height: 29%;
+  height: 29.1%;
   text-align: center;
 }
 .columns3 .men .grey {
@@ -589,16 +589,16 @@ footer {
   }
 
   .columns3 .price li {
-    height: 11.9%;
+    height: 11.6%;
   }
   .columns3 .price h3 {
     font-size: 15px;
   }
   .columns3 .men li {
-    height: 30.5%;
+    height: 28.8%;
   }
   .columns3 .men .grey {
-    height: 12.2%;
+    height: 12%;
   }
 
   .contactleft {
