@@ -247,7 +247,7 @@ footer {
   color: #000;
 }
 .socials li {
-  margin: 0 10px;
+  margin: 0 5px;
 }
 .socials a {
   text-decoration: none;
@@ -277,13 +277,13 @@ footer {
 }
 
 .footer-bottom p a {
-  color: #b58b00c4;
+  color: #f2bd0dc4;
   font-size: 16px;
   text-decoration: none;
 }
 .footer-bottom span {
   text-transform: uppercase;
-  opacity: 0.4;
+  opacity: 1;
   font-weight: 200;
 }
 
@@ -301,7 +301,7 @@ footer {
   margin-right: auto;
 }
 .footer-menu ul li a {
-  color: #f7b3082c;
+  color:  #f2bd0dc4;
   text-decoration: none;
 }
 .footer-menu ul li a:hover {
