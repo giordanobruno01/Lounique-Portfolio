@@ -15,6 +15,10 @@ body {
   width: 200px;
   background-color: rgb(250, 242, 232);
 }
+.site-navbar-top a {
+  color: black;
+  /* background-color: transparent;text-shadow: 0.5px 0.5px black; */
+}
 
 .cover_80 {
   width: 80%;
@@ -37,23 +41,34 @@ body {
   align-items: center;
   height: 100vh;
 }
-.our-services {
+#ourservices {
   border-top: 20px solid black;
-  background-color: #dcd1d131;  
+  background-color: #f7cda61f;
   align-items: center;
   height: 100vh;
   padding: 100px;
-
-}.our-services h1{
-  margin-bottom: 100px;
-  font-style: italic;
-  /* font-family: aktiv-grotesk-thin; */
 }
-.our-services p{
+#ourservices button {
+  background-color: #000;
+  height: 50px;
+  width: 200px;
+  color: white;
+}
+#ourservices h1 {
+  margin-bottom: 50px;
+  font-style: italic;
+
+  font-size: 4rem;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+}
+#ourservices p {
   margin: 30px;
-     color: black;
+  color: black;
   font-size: 2rem;
-   margin-top: 0px;
+  margin-top: 0px;
+  text-transform: uppercase;
+  font-style: italic;
 }
 .aboutleft {
   background-image: url(images/LH\ web\ 8.png);
@@ -76,13 +91,14 @@ body {
   font-size: 1.2vw;
   color: #000;
 }
+
 .aboutright > h2,
 h1,
 p {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Raleway";
   text-align: center;
   padding: 0%;
+  font-weight: bolder;
 }
 .aboutright > p {
   color: black;
@@ -107,12 +123,15 @@ p {
   /* background-image: url(images/parallax.png);
   background-position-x: right;
   background-attachment: fixed; */
-
+  background-color: #f7cda61f;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#events-section h1 {
+  letter-spacing: 0.5em;
 }
 .eventsright {
   /* position: absolute; */
@@ -146,8 +165,8 @@ p {
   height: 30%;
 }
 #gallery-section {
-   background-color: #dcd1d131;
-   border-top: 20px solid black;
+  background-color: #f7cda61f;
+  border-top: 20px solid black;
   background-position-x: right;
   background-repeat: no-repeat;
   background-size: cover;
@@ -189,6 +208,9 @@ p {
 }
 
 .pricelist button {
+  font-size: 2em;
+  text-decoration: none;
+  text-align: center;
   background-size: cover;
   background-position: center center;
   height: 100%;
@@ -245,6 +267,7 @@ p {
   position: relative;
 }
 #reviews {
+  border-top: 20px solid black;
   padding-top: 20px;
   color: #000;
   height: 70vh;
@@ -532,7 +555,6 @@ footer {
     background-size: cover;
   }
   .aboutleft {
-    background-image: url(images/LH\ web\ 8.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: center;
