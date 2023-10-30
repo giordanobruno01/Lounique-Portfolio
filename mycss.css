@@ -48,11 +48,15 @@ body {
   height: 100vh;
   padding: 100px;
 }
+
 #ourservices button {
+  display: block;
   background-color: #000;
   height: 50px;
   width: 200px;
   color: white;
+  margin-left: auto;
+  margin-right: auto;
 }
 #ourservices h1 {
   margin-bottom: 50px;
@@ -93,7 +97,8 @@ body {
 }
 
 .aboutright > h2,
-h1,h5,
+h1,
+h5,
 p {
   font-family: "Raleway";
   text-align: center;
@@ -165,8 +170,6 @@ p {
   height: 30%;
 }
 #gallery-section {
-  
-
   background-color: #f7cda61f;
   border-top: 20px solid black;
   background-position-x: right;
@@ -191,7 +194,6 @@ p {
 }
 .galleryright h3 {
   padding-left: 15px;
-  
 }
 .galleryleft div {
   color: white;
@@ -206,7 +208,8 @@ p {
   box-shadow: 0 8px 8px 0 #f7b308b2;
 }
 .pricelist {
-  background-color: transparent;text-shadow: 1px 1px black;
+  background-color: transparent;
+  text-shadow: 1px 1px black;
   padding: 0;
   width: 100%;
   height: 32.5%;
@@ -416,7 +419,8 @@ footer {
 
 .price .header {
   font-family: "Raleway";
-  background-color: transparent;text-shadow: 1px 1px black;
+  background-color: transparent;
+  text-shadow: 1px 1px black;
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
