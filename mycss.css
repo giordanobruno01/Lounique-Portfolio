@@ -246,32 +246,6 @@ p {
   position: relative;
 }
 
-#classes-section {
-  background-image: url(images/parallax.png);
-  background-position-x: right;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  display: flex;
-  align-items: center;
-  height: 70vh;
-}
-.classesleft {
-  background-image: url(images/LH\ web\ 9\ -\ right.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-  position: relative;
-}
-.classesright {
-  background-image: url(images/LH\ web\ 8.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: center;
-  background-position-x: center;
-  height: 100%;
-  position: relative;
-}
 #reviews {
   border-top: 20px solid black;
   padding-top: 20px;
@@ -282,7 +256,7 @@ p {
 }
 
 footer {
-  background: #30171796;
+  background: #977351b7;
   height: 30vh;
   color: black;
 }
