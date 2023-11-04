@@ -1,9 +1,10 @@
 /* Large devices (desktops, 992px and up) */
 /* @media (min-width: 992px) {
 } */
-
+ 
 body {
   background-color: white;
+  font-family: "Raleway";
 }
 .hero {
   height: 100vh;
@@ -265,7 +266,7 @@ footer {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  text-align: center; 
+  text-align: center;
   height: 70%;
 }
 .footer-content h3 {
@@ -824,7 +825,6 @@ footer {
     width: 20%;
     height: 100%;
   }
-  
 
   /* .contactleft {
     background-image: url(images/LH\ web\ 7.1.png);
