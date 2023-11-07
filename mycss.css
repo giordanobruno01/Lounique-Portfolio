@@ -50,7 +50,7 @@ body {
   padding: 5% 6vw 5% 6vw;
 }
 
-#ourservices a {
+#ourservices a { 
   display: flex;
   align-items: center;
   background-color: #000;
