@@ -36,7 +36,7 @@ function notready() {
   alert("In order to purchase wigs and bundles, all orders must be made through e-mail");
   return; 
 }
-
+ 
 var slideIndex = 1;
 showDivs(slideIndex);
 
