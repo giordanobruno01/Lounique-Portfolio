@@ -30,7 +30,7 @@ $(document).ready(function () {
 //     $(".site-mobile-menu").show();
 //     // $(".icon-close2").hide(); 
 //   });
-// }); 
+// });   
 function notready() {   
   var checkbox = document.getElementById("notready");
   alert("In order to purchase wigs and bundles, all orders must be made through e-mail");
